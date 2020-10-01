@@ -1,7 +1,7 @@
 <?php 
     /*
-    Plugin Name: Princeton University Tagger
-    Plugin URI: http://www.princeton.edu
+    Plugin Name: Media Tagger
+    Plugin URI: http://mcgrawect.princeton.edu
     Description: Allow users to 'tag' an image (or video or anything, really) and to have a tag cloud automatically generated. This is useful for crowd-sourced metadata generation and image analysis. To add a tagging form element to a page or post, add the shortcode: [putagger] to your page or post.
     Author: Ben Johnston - benj@princeton.edu
     Version: 1.0
