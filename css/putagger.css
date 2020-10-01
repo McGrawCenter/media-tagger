@@ -1,0 +1,10 @@
+.tagcloud-smallest {font-size:8pt;}
+.tagcloud-small {font-size:18pt;}
+.tagcloud-medium {font-size:28pt;}
+.tagcloud-large {font-size:58pt;}
+
+#putagger_cloud {
+  line-height:20px;
+}
+
+.putagger_term { padding-right:10px; /* color:#777;  */}
