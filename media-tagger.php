@@ -29,6 +29,7 @@ function putagger_insert_tager( $atts ){
   
   if(!$arr = get_post_meta($post->ID, 'PUTags', true)) {
      update_post_meta($post->ID,'PUTags', array());
+     $arr = array();
   }
 
   //if($arr = get_post_meta($post->ID, 'PUTags', true)) {
@@ -38,9 +39,7 @@ function putagger_insert_tager( $atts ){
 	  $num_tags = array_sum($counts);
 	  $min = 12;
 	  $max = 40;
-	  $html .= "<style>
-
-	</style>";
+	  $html = "<style></style>";
 	    $html .= "<div id='putagger_cloud'>";
 	    foreach($counts as $key=>$val) {
 	     	$size = floor($min + (($max-$min)/$num_tags) * $val);
